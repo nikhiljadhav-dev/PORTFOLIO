@@ -1,0 +1,273 @@
+.scont1{
+     margin: 0 25%;
+     height: 100vh;
+    position: relative;
+    overflow: hidden; 
+    z-index: 1;
+}
+
+.img8{
+   position: absolute;
+   z-index: 2;
+   top:81%;
+   width: 100%;
+}
+.img9{
+  position: absolute;
+   z-index: 3;
+   top:63%;
+   left: 38%;
+   height: 35vh;
+}
+.img10{
+  position: absolute;
+   z-index: 3;
+   top:10%;
+   left: 70%;
+   height: 15vh;
+}
+.iconNode{
+   position: absolute;
+   z-index: 4;
+   top:58%;
+   left: 63%;
+}
+.iconReact{
+   position: absolute;
+   z-index: 4;
+   top:70%;
+   left: 78%;
+}
+.iconVS{
+  position: absolute;
+   z-index: 4;
+   top:50%;
+   left: 85%;
+}
+.iconHTML5{
+ position: absolute;
+   z-index: 4;
+   top:50%;
+   left: 30%;
+}
+.iconCSS3{
+  position: absolute;
+   z-index: 4;
+   top:30%;
+   left: 32%;
+}
+.iconJavaScript{
+  position: absolute;
+   z-index: 4;
+   top:63%;
+   left: 15%;
+}
+.iconMySQL{
+    position: absolute;
+   z-index: 4;
+   top:45%;
+   left: 5%;
+}
+.iconMongoDB{
+   position: absolute;
+   z-index: 4;
+   top: 28%;
+   left: 8%;
+}
+.iconTailwind{
+   position: absolute;
+   z-index: 4;
+   top:43%;
+   left: 54%;
+}
+.iconBootstrap{
+   position: absolute;
+   z-index: 4;
+   top:35%;
+   left: 73%;
+}
+.iconPython{
+  position: absolute;
+   z-index: 4;
+   top:8%;
+   left: 20%;
+}
+.iconJava{
+  position: absolute;
+   z-index: 4;
+   top:23%;
+   left: 53%;
+}
+.iconExpress{
+  position: absolute;
+   z-index: 4;
+   top:5%;
+   left: 45%;
+}
+.iconGitHub{
+    position: absolute;
+   z-index: 4;
+   top:75%;
+   left: 25%;
+}
+.star1 {
+   position: absolute;
+   z-index: 3;
+   top: 5%;
+   left: 5%;
+  filter: brightness(0) invert(1); 
+}
+.star1-1{
+   position: absolute;
+   z-index: 3;
+   top: 0%;
+   left: 25%;
+  filter: brightness(0) invert(1);
+}
+.star1-2{
+   position: absolute;
+   z-index: 3;
+   top: 2%;
+   left: 55%;
+  filter: brightness(0) invert(1);
+}
+.star1-3{
+   position: absolute;
+   z-index: 3;
+   top: 5%;
+   left: 75%;
+  filter: brightness(0) invert(1);
+}
+.star1-4{
+   position: absolute;
+   z-index: 3;
+   top: 1%;
+   left: 90%;
+  filter: brightness(0) invert(1);
+}
+.star1-5{
+   position: absolute;
+   z-index: 3;
+   top: 20%;
+   left: 20%;
+  filter: brightness(0) invert(1);
+}
+.star1-6{
+   position: absolute;
+   z-index: 3;
+   top: 15%;
+   left: 45%;
+  filter: brightness(0) invert(1);
+}
+.star1-7{
+   position: absolute;
+   z-index: 3;
+   top: 35%;
+   left: 55%;
+  filter: brightness(0) invert(1);
+}
+.star1-8{
+   position: absolute;
+   z-index: 3;
+   top: 40%;
+   left: 20%;
+  filter: brightness(0) invert(1);
+}
+.star1-9{
+   position: absolute;
+   z-index: 3;
+   top: 30%;
+   left: 88%;
+  filter: brightness(0) invert(1);
+}
+.star1-10{
+   position: absolute;
+   z-index: 3;
+   top: 55%;
+   left: 15%;
+  filter: brightness(0) invert(1);
+}
+.star1-11{
+   position: absolute;
+   z-index: 3;
+   top: 55%;
+   left: 50%;
+  filter: brightness(0) invert(1);
+}
+.star1-12{
+   position: absolute;
+   z-index: 3;
+   top: 50%;
+   left: 75%;
+  filter: brightness(0) invert(1);
+}
+
+.star2{
+   position: absolute;
+   z-index: 3;
+   top: 18%;
+   left: 5%;
+    filter: brightness(0) invert(1);
+}
+.star2-1{
+   position: absolute;
+   z-index: 3;
+   top: 12%;
+   left: 60%;
+    filter: brightness(0) invert(1);
+}
+.star2-2{
+   position: absolute;
+   z-index: 3;
+   top: 42%;
+   left: 40%;
+    filter: brightness(0) invert(1);
+}
+.star2-3{
+   position: absolute;
+   z-index: 3;
+   top: 10%;
+   left: 35%;
+    filter: brightness(0) invert(1);
+}
+.star2-4{
+   position: absolute;
+   z-index: 3;
+   top: 35%;
+   left: 95%;
+    filter: brightness(0) invert(1);
+}
+.star3{
+   position: absolute;
+   z-index: 3;
+   top: 35%;
+   left: 5%;
+    filter: brightness(0) invert(1);
+}
+.star4{
+   position: absolute;
+   z-index: 3;
+   top: 20%;
+   left: 35%;
+   filter: brightness(0) invert(1);
+   fill: white;
+   transform: rotate(90deg);
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.bubble {
+  position: absolute;
+  z-index: 4;
+   width: 40px;     
+  height: 40px;
+  object-fit: contain; 
+}
+
+
+
+/*  */

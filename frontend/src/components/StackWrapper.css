@@ -1,0 +1,14 @@
+.stack-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.stack-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transform-origin: center top;
+}

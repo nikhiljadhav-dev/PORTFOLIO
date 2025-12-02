@@ -1,0 +1,93 @@
+body,html,#root{
+  margin: 0%;
+  padding: 0%;
+}
+.Aboutt{
+    position: relative;
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    column-gap: 20px;
+    padding: 5px;
+    background: linear-gradient(0deg, #192225, #030303);
+}
+ .cardd1{
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+} 
+ 
+.card2{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin: 0 0 0 3%;
+}
+.card21{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-top: 20%;
+   row-gap: 0px;
+}
+.card211Q{
+   display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.card211{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 12px 20px;
+  margin: 2% 0 1% 0;
+  border-radius: 5px;
+  border: 2px solid rgb(186, 197, 209);
+  transition: transform 0.3s ease;
+   background: linear-gradient(0deg, #192225, #030303);
+}
+.card211:hover {
+  transform: scale(0.9);  
+}
+
+#fa-regular-1m{
+  font-size: 1.3em;
+   margin: 0%;
+   padding: 0%;
+   color: rgb(251, 243, 233);
+}
+.card2111{
+  font-size: 1.3em;
+  margin: 0%;
+  padding: 0%;
+  color: rgb(251, 243, 233);
+}
+.card212{
+  font-size: 4em;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+   color: rgb(246, 246, 246);
+}
+.card213{
+   font-size: 1.8em;
+   margin: 0% 0 2% 0;
+   padding: 0%;
+    color: rgba(246, 246, 246, 0.842);
+}
+.card214{
+   font-size: 1.5em;
+   padding: 0;
+    color: rgb(251, 243, 233);
+}
+.card3{
+  width: 2px;
+  height: 75vh;
+  margin: 5% 0 0 5%;
+  clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0% 90%, 0% 10%);
+  background-color: rgb(252, 250, 246);
+}

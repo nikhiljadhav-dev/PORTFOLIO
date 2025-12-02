@@ -1,0 +1,17 @@
+# Node modules for subprojects
+/frontend/node_modules/
+/backend/node_modules/
+
+# React build
+/frontend/build/
+
+# local envs
+/backend/.env
+/frontend/.env
+.env
+
+# OS + logs
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

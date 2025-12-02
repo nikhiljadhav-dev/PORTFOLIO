@@ -1,0 +1,95 @@
+body,html,#root{
+  margin: 0%;
+  padding: 0%;
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(0deg, #393632, #080807);
+}
+.Contact1{
+    text-align: center;
+    font-size: 3em;
+    margin: 2% 0 0 0%;
+    color: rgb(226, 230, 234);
+    font-family: 'Roboto Mono', monospace;
+}
+.Contact3{
+    text-align: center;
+    font-size: 3em;
+    margin: 0%;
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(226, 230, 234);
+}
+.Contact2{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 35% 0 35%;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.362);
+}
+.Contact2-1{
+    text-align: center;
+    font-size: 2em;
+    margin: 4% 0 3% 0;
+    color: rgb(237, 240, 244);
+    font-family: 'Roboto Mono', monospace;
+}
+.Contact2-2{
+    font-size: 1.2em;
+    margin: 3% 10% 3% 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.362);
+    background-color: rgba(255, 255, 255, 0.073);
+    font-family: 'Roboto Mono', monospace;
+}
+.Contact2-3{
+    font-size: 1.2em;
+    margin: 0 10% 3% 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.362);
+    background-color: rgba(255, 255, 255, 0.073);
+    font-family: 'Roboto Mono', monospace;
+}
+.Contact2-4{
+     font-size: 1.2em;
+    margin: 0 10% 3% 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.362);
+    background-color: rgba(255, 255, 255, 0.073);
+    font-family: 'Roboto Mono', monospace;
+}
+.Contact2-5{
+    font-size: 1.2em;
+    margin: 0 10% 4% 10%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.362);
+    background-color: rgba(255, 255, 255, 0.073);
+    font-family: 'Roboto Mono', monospace;
+}
+.Contact2-6{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0 40% 5% 40%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.362);
+    background-color: rgba(255, 255, 255, 0.073);
+    color: rgb(237, 240, 244);
+    font-family: 'Roboto Mono', monospace;
+    transition: transform 0.3s ease;
+}
+.Contact2-6:hover {
+  transform: scale(0.9);      
+}

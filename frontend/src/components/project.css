@@ -1,0 +1,224 @@
+body,html,#root{
+  margin: 0%;
+  padding: 0%;
+}
+.Project{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(0deg, #192225, #030303);
+}
+.procont{
+
+  display: flex; 
+  flex-direction: column;
+  margin: 0 20%;
+}
+.procont1{
+   
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+     column-gap: 10px;
+     width: 100%;
+     margin: 5% 0 1% 0;
+}
+#fa-regular-ach1{
+    background-color: rgba(252, 250, 246, 0.145);
+    align-self: center;
+    font-size: 1.8em;
+    padding: 15px;
+    color: rgb(252, 250, 246);
+    border: 1px solid rgb(252, 250, 246);
+    border-radius: 5px;
+}
+.procont1-1{
+    align-self: center;
+     font-size: 3.5em;
+    font-family: "Oi", serif;
+    font-weight: 200;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0%;
+    color: rgb(237, 236, 232);
+    letter-spacing: 5px; 
+}
+.procont2 {
+  height: 1px;                  
+  background: #333;              
+  clip-path: polygon(
+    0% 50%, 5% 0%, 95% 0%, 100% 50%, 
+    95% 100%, 5% 100%
+  );
+  align-items: center;
+  margin: 0 20%;
+  background-color: rgb(252, 250, 246);
+}
+.procont3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 8%;
+}
+
+/* -------------------------------- */
+.procont3-1d{
+  display: flex;
+  flex-direction: column;
+}
+.procont3-1{
+  width: 380px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+   background: linear-gradient(0deg, #192225, #030303);
+}
+.procont3-1:hover {
+  transform: scale(0.9);  
+}
+.procont3-1-1{
+  display: flex;
+  flex-direction: column;
+}
+.img6{
+    width: 100%;
+    height: 200px; 
+    border-radius: 8px;
+}
+.procont3-1-2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+   column-gap: 10px;
+   margin: 2% 0 0 0;
+}
+.procont3-1-21{
+   font-family: 'Roboto Mono', monospace;
+   align-self: center;
+   font-size: 1.5em;
+   padding: 0%;
+  margin: 0% 0 0 3%;
+  color: rgb(226, 230, 234);
+}
+.procont3-1-22{
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  justify-content: center;
+  padding: 0%;
+  margin: 0% 0 0 18%;
+}
+.procont3-1-3{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin: 4% 0 5% 0;
+}
+.procont3-1-31{
+  font-size: 1.2em;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 0 0 0 3%;
+  border: 1px solid rgba(255, 255, 255, 0.362);
+  color: rgb(226, 230, 234);
+  border-radius: 6px;
+}
+#fa-solid-pro1{
+  font-size: 0.9rem;
+  margin-right: 5px;
+}
+.procont3-1-32{
+  font-size: 1.2em;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 0 0 0 3%;
+   border: 1px solid rgba(255, 255, 255, 0.362);
+  color: rgb(226, 230, 234);
+  border-radius: 6px;
+}
+#fa-solid-pro2{
+  font-size: 1.1rem;
+  margin-right: 5px;
+}
+/* ---------------------------- */
+.procont3-1dd{
+  display: flex;
+  flex-direction: column;
+}
+.procont3-1b{
+  width: 380px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+   background: linear-gradient(0deg, #192225, #030303);
+}
+.procont3-1b:hover {
+  transform: scale(0.9);  
+}
+.procont3-1-1{
+  display: flex;
+  flex-direction: column;
+}
+.img6{
+    width: 100%;
+    height: 200px; 
+    border-radius: 8px;
+}
+.procont3-1-2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+   column-gap: 10px;
+   margin: 2% 0 0 0;
+}
+.procont3-1-21{
+   font-family: 'Roboto Mono', monospace;
+   align-self: center;
+   font-size: 1.5em;
+   padding: 0%;
+  margin: 0% 0 0 3%;
+  color: rgb(226, 230, 234);
+}
+.procont3-1-22b{
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  justify-content: center;
+  padding: 0%;
+  margin: 0%;
+}
+.procont3-1-3{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin: 4% 0 5% 0;
+}
+.procont3-1-31{
+  font-size: 1.2em;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 0 0 0 3%;
+  border: 1px solid rgba(255, 255, 255, 0.362);
+  color: rgb(226, 230, 234);
+  border-radius: 6px;
+}
+#fa-solid-pro1{
+  font-size: 0.9rem;
+  margin-right: 5px;
+}
+.procont3-1-32{
+  font-size: 1.2em;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 0 0 0 3%;
+   border: 1px solid rgba(255, 255, 255, 0.362);
+  color: rgb(226, 230, 234);
+  border-radius: 6px;
+}
+#fa-solid-pro2{
+  font-size: 1.1rem;
+  margin-right: 5px;
+}
