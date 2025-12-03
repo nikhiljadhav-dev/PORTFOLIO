@@ -115,7 +115,7 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // setStatus("Sending...");
+    setStatus("Sending...");
 
     try {
       // Use your deployed backend URL on Render
@@ -130,11 +130,11 @@ const ContactForm = () => {
         setStatus("Message sent successfully ✅");
         setFormData({ name: "", email: "", phone: "", message: "" });
       } else {
-        // setStatus("Failed to send ❌");
+        setStatus("Failed to send ❌");
       }
     } catch (error) {
       console.error("Error:", error);
-      // setStatus("Error sending message ❌");
+      setStatus("Error sending message ❌");
     }
   };
 
