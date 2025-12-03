@@ -119,7 +119,7 @@ const ContactForm = () => {
 
     try {
       // Use your deployed backend URL on Render
-      const response = await fetch("https://nikhiljadhav-portfolio.onrender.com/send-email", {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/send-email`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
