@@ -190,7 +190,7 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ Explicitly allow your Vercel frontend origin
 app.use(cors({
-  origin: "https://portfolio-nikhiljadhav.vercel.app"
+  origin: "https://nikhiljadhav-portfolio.vercel.app/"
 }));
 
 app.use(express.json());
